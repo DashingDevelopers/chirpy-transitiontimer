@@ -1,0 +1,28 @@
+{% assign toolkit = site.data.landing.toolkit %}
+
+<section class="tt-section tt-section-darker">
+  <div class="tt-section-heading">
+    <div style="font-size:5rem;margin-bottom:.75rem;">{{ toolkit.emoji }}</div>
+    <h2>{{ toolkit.title }}</h2>
+    <p>{{ toolkit.promise }}</p>
+  </div>
+
+  <div class="tt-toolkit-grid">
+    {% for col in toolkit.columns %}
+    <div class="tt-toolkit-col">
+      <h4>{{ col.emoji }} {{ col.title }}</h4>
+      <ul>
+        {% for feature in col.features %}
+        <li>
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+          </svg>
+          <span><strong>{{ feature.name }}</strong> {{ feature.desc }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+

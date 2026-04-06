@@ -1,0 +1,16 @@
+{% assign cta = site.data.landing.cta %}
+{% assign badges = site.data.landing.store_badges %}
+
+<div class="tt-cta">
+  <h2>{{ cta.title }}</h2>
+  <p>{{ cta.subtitle }}</p>
+
+  <div class="store-badges">
+    {% for badge in badges %}
+    <a href="{{ badge.url }}" target="_blank" rel="noopener">
+      <img src="{{ badge.img }}" alt="{{ badge.alt }}">
+    </a>
+    {% endfor %}
+  </div>
+</div>
+

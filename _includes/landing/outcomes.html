@@ -1,0 +1,20 @@
+{% assign outcomes = site.data.landing.outcomes %}
+
+<section class="tt-section tt-section-dark">
+  <div class="tt-section-heading">
+    <h2>{{ outcomes.title }}</h2>
+    <p>{{ outcomes.promise1 }}</p>
+    <p>{{ outcomes.promise2 }}</p>
+  </div>
+
+  <div class="tt-cards">
+    {% for card in outcomes.cards %}
+    <div class="tt-card">
+      <div class="tt-card-icon">{{ card.icon }}</div>
+      <h3>{{ card.title }}</h3>
+      <p>{{ card.body }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+

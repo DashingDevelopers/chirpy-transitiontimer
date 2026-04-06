@@ -1,0 +1,23 @@
+{% assign testimonials = site.data.landing.testimonials %}
+
+<section class="tt-section tt-section-dark">
+  <div class="tt-section-heading">
+    <h2>{{ testimonials.title }}</h2>
+  </div>
+
+  <div class="tt-testimonials-grid">
+    {% for item in testimonials.items %}
+    <div class="tt-testimonial">
+      <blockquote>"{{ item.quote }}"</blockquote>
+      <div class="tt-testimonial-meta">
+        <div>
+          <strong>{{ item.name }}</strong>
+          <span>{{ item.role }}</span>
+        </div>
+        <span>{{ item.stars }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
