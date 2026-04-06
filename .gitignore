@@ -26,5 +26,5 @@ package-lock.json
 _sass/vendors
 assets/js/dist
 # Ignore disk images
-*.dmg
-*.mp3
+#*.dmg
+#*.mp3
