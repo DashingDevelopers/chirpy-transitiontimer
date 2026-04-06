@@ -1,0 +1,97 @@
+hero:
+  headline1: "End Time Blindness"
+  headline2: "Master Hyperfocus"
+  subtext: "Overcome time blindness and break the hyperfocus spell with an intelligent co-pilot that makes task transitions easier."
+  screenshots:
+    - src: /assets/img/screenshots/02.png
+      alt: App screenshot 1
+    - src: /assets/img/screenshots/03.png
+      alt: App screenshot 2
+    - src: /assets/img/screenshots/04.png
+      alt: App screenshot 3
+    - src: /assets/img/screenshots/07.png
+      alt: App screenshot 4
+    - src: /assets/img/screenshots/08.png
+      alt: App screenshot 5
+
+store_badges:
+  - url: https://apps.apple.com/us/app/time-blindness-hyper-focus/id6634579526
+    img: /assets/img/svg/appstore.svg
+    alt: Download on the App Store
+  - url: https://play.google.com/store/apps/details?id=com.workbreaktimer
+    img: /assets/img/svg/google.svg
+    alt: Get it on Google Play
+  - url: https://www.amazon.com/gp/product/B0DSGTM66Y
+    img: /assets/img/svg/amazon.svg
+    alt: Get it on Amazon Appstore
+
+outcomes:
+  title: "Built for ADHD+"
+  promise1: "Translates abstract time into clear, tangible signals that work for your brain."
+  promise2: 'Finally, put an end to "just one more minute" spiraling into hours!'
+  cards:
+    - icon: "🕒"
+      title: Become Time Aware
+      body: "The Visual Linear Clock instantly eliminates time blindness. See your day unfold at a glance and get the clarity and control you need."
+    - icon: "✨"
+      title: Break the Hyperfocus Spell
+      body: "Seamless transitions start with gentle, clear alerts. If you go over your time, the app gently persists with non-stressful reminders to keep you on schedule."
+    - icon: "🚀"
+      title: Sustain Your Momentum
+      body: "Get smart insights to perfectly balance effort and rest, helping you decide when to push forward and when to recharge."
+
+toolkit:
+  emoji: "🛠"
+  title: "Your Complete<br>Timing Toolkit"
+  promise: "All the tools you need to visualize time and build focus."
+  columns:
+    - emoji: "👨‍✈️"
+      title: YOUR ADHD CO-PILOT
+      features:
+        - name: "Smart Time Blocking:"
+          desc: "Plan your day with intention and focus."
+        - name: "Automatic Break Calculations:"
+          desc: "Actively prevents burnout without you having to think about it."
+        - name: "Visual & Spoken Alerts:"
+          desc: "A gentle co-pilot for task transitions."
+        - name: "Persistent Reminders:"
+          desc: "Gently breaks through hyperfocus without stress."
+        - name: "Multiple Timer Modes:"
+          desc: "The right tool for any timing need."
+    - emoji: "⏳"
+      title: VISUALIZE YOUR TIME
+      features:
+        - name: "Linear Clock:"
+          desc: "See your entire workday at a glance to fight time blindness."
+        - name: "Session Map:"
+          desc: "Understand exactly where your time goes."
+        - name: "Detailed Graphs & Statistics:"
+          desc: "See your progress, discover patterns, and celebrate wins."
+    - emoji: "🎯"
+      title: DESIGNED FOR FOCUS
+      features:
+        - name: "Full Screen 'ZEN' Mode:"
+          desc: "A minimalist, distraction-free view."
+        - name: "Multiple Timer Face Styles:"
+          desc: "Customize your timer to fit your task."
+        - name: "Different English Accents:"
+          desc: "Choose a voice that feels comfortable and effective."
+        - name: "Constant Time Awareness:"
+          desc: "Shows current day/time to keep you grounded."
+
+testimonials:
+  title: "Loved by users everywhere"
+  items:
+    - quote: "I've finally stopped my hyper focus ruining my ergonomics. Now I rarely work late into the evening."
+      name: Simon V.
+      role: Designer
+      stars: "⭐️⭐️⭐️⭐️⭐️"
+    - quote: "Simple, effective! I wouldn't mind crisper graphics, but this is nice. I will tell other special educators about it!"
+      name: Anonymous
+      role: Special Educator
+      stars: "⭐️⭐️⭐️⭐️⭐️"
+
+cta:
+  title: "Download TransitionTIMER"
+  subtitle: "and take control of your day"
+
